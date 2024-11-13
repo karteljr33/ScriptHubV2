@@ -60,7 +60,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/Aimbot-V3/main
 })
 
 local Button = MainTab:CreateButton({
-   Name = "Soft Aim",
+   Name = "Silent Aim",
    Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/karteljr33/Soft-Aim/refs/heads/main/Soft%20Aim",true))()
    end,
