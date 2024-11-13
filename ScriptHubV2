@@ -60,7 +60,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/Aimbot-V3/main
 })
 
 local Button = MainTab:CreateButton({
-   Name = "Silent Aim",
+   Name = "Soft Aim",
    Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/karteljr33/Soft-Aim/refs/heads/main/Soft%20Aim",true))()
    end,
@@ -12725,5 +12725,12 @@ local Button = RivalsTab:CreateButton({
    Name = "Rivals Roblox GUI",
    Callback = function()
   loadstring(game:HttpGet("https://raw.githubusercontent.com/Sheeshablee73/Scriptss/main/Rivals%20Latest.lua",true))() 
+   end,
+})
+
+local Button = ArsenalTab:CreateButton({
+   Name = "ARSON",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ArsonScriptOfficial/ArsNew/refs/heads/main/Keysystem/KeySys.lua"))()             
    end,
 })
