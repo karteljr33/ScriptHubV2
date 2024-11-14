@@ -12734,3 +12734,10 @@ local Button = ArsenalTab:CreateButton({
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ArsonScriptOfficial/ArsNew/refs/heads/main/Keysystem/KeySys.lua"))()             
    end,
 })
+
+local Button = FischTab:CreateButton({
+   Name = "Fisch Auto Farm",
+   Callback = function()
+  loadstring(game:HttpGet("https://rawscripts.net/raw/UPD-Fisch-Roblox-Script-21984"))()
+   end,
+})
