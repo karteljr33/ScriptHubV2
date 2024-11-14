@@ -12741,3 +12741,10 @@ local Button = FischTab:CreateButton({
   loadstring(game:HttpGet("https://rawscripts.net/raw/UPD-Fisch-Roblox-Script-21984"))()
    end,
 })
+
+local Button = BloxFruitTab:CreateButton({
+   Name = "God Hub",
+   Callback = function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/kiciahook/kiciahook/refs/heads/main/loader.lua"))()
+   end,
+})
