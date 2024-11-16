@@ -25498,7 +25498,7 @@ local Button = BloxFruitTab:CreateButton({
    end,
 })
 
-local DroneSimulatorTab = Window:CreateTab("🎃| Drone Simulator", 4483362458) -- Title, Image
+local DroneSimulatorTab = Window:CreateTab("🎃| Drone Simulator", nil) -- Title, Image
 local Section = DroneSimulatorTab:CreateSection("DroneSimulator")
 
 local Button = DroneSimulatorTab:CreateButton({
