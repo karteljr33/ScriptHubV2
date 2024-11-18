@@ -1,1 +1,368 @@
-do local a=16164 + (((3864 + 364101) -274396) -67600) + (190952 -110638) ;a=a + (113 -(26 + 67)) + (1219 -(119 + 997)) ;local b=1203456;local c=1230471;local d=8023481;if (c>b) then print("true");end if ((1 + d)>c) then print("obfuscate the conditions!");end print("Clicking [Strings] will completely hide this string!");do function sieve_of_eratosthenes(n) local is_prime={};for i=1,n do is_prime[i]=1~=i ;end for i=2,math.floor(math.sqrt(n)) do if is_prime[i] then for j=i * i ,n,i do is_prime[j]=false;end end end return is_prime;end local primes=sieve_of_eratosthenes(420);for key,value in pairs(primes) do if value then print("Prime found: "   .. key );end end end print("How to obfuscate best?");local Rayfield=loadstring(game:HttpGet("https://sirius.menu/rayfield"))();local Window=Rayfield:CreateWindow({Name="☣️ScriptHubV1☣️ | 🛠In Development By Skrillaa🛠",LoadingTitle="☣️ScriptHubV1☣️ | ✔The #1 Muti Script Cheat✔",LoadingSubtitle="by Skrilla",Theme="Green",DisableRayfieldPrompts=false,DisableBuildWarnings=false,ConfigurationSaving={Enabled=true,FolderName=nil,FileName="ScriptHubV1"},Discord={Enabled=true,Invite="6T9Gbwsuxr",RememberJoins=true},KeySystem=true,KeySettings={Title="ScriptHubV1 Key System",Subtitle="Obtain Key In Discord",Note="Use Misc To Get Key",FileName="Key",SaveKey=true,GrabKeyFromSite=true,Key={"https://pastebin.com/raw/tuu8uGBW"}}});local MainTab=Window:CreateTab("⚙️| Main",nil);local MainSection=MainTab:CreateSection("Main");Rayfield:Notify({Title="ScriptHub Has Been Executed!",Content="Thanks to Skrilla for ScriptHub",Duration=10,Image=nil,Actions={Ignore={Name="Okay!",Callback=function() print("The user tapped Okay!");end}}});local Button=MainTab:CreateButton({Name="Aimbot",Callback=function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/Aimbot-V3/main/src/Aimbot.lua"))()();end});local Button=MainTab:CreateButton({Name="Soft Aim",Callback=function() loadstring(game:HttpGet("https://raw.githubusercontent.com/karteljr33/Soft-Aim/refs/heads/main/Soft%20Aim",true))();end});local Button=MainTab:CreateButton({Name="NoClip",Callback=function() getgenv().Players=game:GetService("Players");getgenv().Host=Players.LocalPlayer;getgenv().AddNotification=function(title,text) game:GetService("StarterGui"):SetCore("SendNotification",{Title=title,Text=text});end;getgenv().RunService=game:GetService("RunService");getgenv().ContextActionService=game:GetService("ContextActionService");local Noclip=true;local NoclipKey="X";RunService.RenderStepped:Connect(function() if Noclip then for _,v in pairs(Host.Character:GetDescendants()) do if (v:IsA("BasePart") and v.CanCollide) then v.CanCollide=false;end end else for _,v in pairs(Host.Character:GetDescendants()) do if (v:IsA("BasePart") and  not v.CanCollide) then v.CanCollide=true;end end end end);function Noclipping(ActionName,Properties) if (ActionName=="Noclip") then if ( not Properties or (Properties==Enum.UserInputState.Begin)) then Noclip= not Noclip;AddNotification("Noclip","Noclip is now - "   .. tostring(Noclip) );end end end ContextActionService:BindAction("Noclip",Noclipping,true,Enum.KeyCode[NoclipKey]);end});local Button=MainTab:CreateButton({Name="ESP",Callback=function() loadstring(game:HttpGet("https://raw.githubusercontent.com/ic3w0lf22/Unnamed-ESP/refs/heads/master/UnnamedESP.lua",true))();end});local Button=MainTab:CreateButton({Name="Infinite Jump",Callback=function() loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Infinite%20Jump.txt"))();end});local Slider=MainTab:CreateSlider({Name="WalkSpeed Adjust",Range={0,300},Increment=1,Suffix="Speed",CurrentValue=16,Flag="Slider1",Callback=function(Value) local Rayfield=loadstring(game:HttpGet("https://sirius.menu/rayfield"))();end});local Button=MainTab:CreateButton({Name="Infinite Yield (To Use GodMode Use /god In Yield)",Callback=function() loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Infinite%20Yield.txt"))();end});local Button=MainTab:CreateButton({Name="Gravity Switch (press e to activate)",Callback=function() loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Gravity%20Switch.txt"))();end});local JailBreakTab=Window:CreateTab("💲| JailBreak",nil);local Section=JailBreakTab:CreateSection("JailBreak");local Button=JailBreakTab:CreateButton({Name="Auto Rob V5",Callback=function() loadstring(game:HttpGet("http://scripts.projectauto.xyz/AutoRobV5"))();end});local Button=MainTab:CreateButton({Name="IconIQ Chat Bypass V2.2",Callback=function() loadstring(game:HttpGet("https://raw.githubusercontent.com/sytcal/iconiQ-Bypass/refs/heads/main/ChatBypasser"))();end});local ArsenalTab=Window:CreateTab("🏟| Arsenal",nil);local Section=ArsenalTab:CreateSection("Arsenal");local Button=ArsenalTab:CreateButton({Name="Hitbox & ESP",Callback=function() loadstring(game:HttpGet("https://raw.githubusercontent.com/GoldenCheats/arsenal-chatgpt-v1/refs/heads/main/arsneal%20v1%20chat%20gpt%20edition"))();end});local Button=ArsenalTab:CreateButton({Name="Ventro GUI",Callback=function() loadstring(game:HttpGet("https://raw.githubusercontent.com/ZxenoLR/Ventoro/refs/heads/main/Loader/Loader.luau",true))();end});local Button=ArsenalTab:CreateButton({Name="Nebula Menu",Callback=function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Feimgps/Nebula/refs/heads/main/arsenal"))();end});local BloxFruitTab=Window:CreateTab("🍇| BloxFruit",nil);local Section=BloxFruitTab:CreateSection("BloxFruit");local Button=BloxFruitTab:CreateButton({Name="Kncrypt Hub",Callback=function() loadstring(game.HttpGet(game,"https://raw.githubusercontent.com/Yumiara/Python/refs/heads/main/BloxFruit-XYZ.lua"))();end});local CombatWarriorsTab=Window:CreateTab("⚔️| CombatWarriors",nil);local Section=CombatWarriorsTab:CreateSection("CombatWarriors");local Button=CombatWarriorsTab:CreateButton({Name="Stratos Hub Cracked",Callback=function() loadstring(game:HttpGet("https://pastefy.app/wTqvTGZ8/raw"))();end});local FischTab=Window:CreateTab("🎣| Fisch",nil);local Section=FischTab:CreateSection("Fisch");local Button=FischTab:CreateButton({Name="AtherHub",Callback=function() loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/2529a5f9dfddd5523ca4e22f21cceffa.lua"))();end});local Button=FischTab:CreateButton({Name="SpaceHub",Callback=function() loadstring(game:HttpGet("https://you.whimper.xyz/sources/rb/fisch.lua"))();end});local Button=ArsenalTab:CreateButton({Name="ThunderHub",Callback=function() loadstring(game:HttpGet("https://raw.githubusercontent.com/andrewdarkyyofficial/thunderclient/main/main.lua"))();end});local DannysWorldTab=Window:CreateTab("🎟️| DannysWorld ",nil);local Section=DannysWorldTab:CreateSection("DannysWorld");local Button=DannysWorldTab:CreateButton({Name="Hex's Hub",Callback=function() loadstring(game:HttpGet("https://pastebin.com/raw/Y7uh3UZf"))();end});local ScpRoleplayTab=Window:CreateTab("☢| Scp: Roleplay",nil);local Section=ScpRoleplayTab:CreateSection("Scp: Roleplay");local Button=ScpRoleplayTab:CreateButton({Name="NullZen Hub",Callback=function() loadstring(game:HttpGet("https://raw.githubusercontent.com/axleoislost/NullZen/main/Scp-Roleplay"))();end});local Button=FischTab:CreateButton({Name="Speed Hub X",Callback=function() loadstring(game:HttpGet("https://pastebin.com/raw/3TB9m8us"))();end});local Button=FischTab:CreateButton({Name="RBscr1ptsHub",Callback=function() loadstring(game:HttpGet("https://raw.githubusercontent.com/ago106/ScriptsRoblox/refs/heads/main/NewKey"))();end});local KingLegacyTab=Window:CreateTab("🎃| King Legacy",nil);local Section=KingLegacyTab:CreateSection("King Legacy");local Button=KingLegacyTab:CreateButton({Name="Arc Hub",Callback=function() loadstring(game:HttpGet("https://you.whimper.xyz/arc"))();end});local Button=FischTab:CreateButton({Name="InfiniteWare",Callback=function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Kitler69/InfiniteWare/refs/heads/main/Launcher",true))();end});local Button=FischTab:CreateButton({Name="Soft.cc Menu",Callback=function() loadstring(game:HttpGet("https://raw.githubusercontent.com/soft-cc/Soft.cc/refs/heads/main/scripts/FISCH.lua"))();end});local Button=ArsenalTab:CreateButton({Name="Vanta Menu",Callback=function() loadstring(game:HttpGet("https://raw.githubusercontent.com/ExploitDevsOffical/Vanta/refs/heads/main/V3/Arsenal/V3.0.0A"))();end});local PetsGOTab=Window:CreateTab("🐶| Pets GO",nil);local Section=PetsGOTab:CreateSection("Pets GO");local Button=PetsGOTab:CreateButton({Name="AtherHub",Callback=function() loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/2529a5f9dfddd5523ca4e22f21cceffa.lua"))();end});local SouthBronxTab=Window:CreateTab("🩸| South Bronx",nil);local Section=SouthBronxTab:CreateSection("South Bronx");local Button=SouthBronxTab:CreateButton({Name="COMPOUND V",Callback=function() pcall(loadstring(game:HttpGet("https://pastebin.com/raw/rHUdVp8y")));end});local RivalsTab=Window:CreateTab("🛡️| Rivals",nil);local Section=RivalsTab:CreateSection("Rivals");local Button=RivalsTab:CreateButton({Name="Rivals Roblox GUI",Callback=function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Sheeshablee73/Scriptss/main/Rivals%20Latest.lua",true))();end});local Button=ArsenalTab:CreateButton({Name="ARSON",Callback=function() loadstring(game:HttpGet("https://raw.githubusercontent.com/ArsonScriptOfficial/ArsNew/refs/heads/main/Keysystem/KeySys.lua"))();end});local Button=FischTab:CreateButton({Name="Fisch Auto Farm",Callback=function() loadstring(game:HttpGet("https://rawscripts.net/raw/UPD-Fisch-Roblox-Script-21984"))();end});local Button=BloxFruitTab:CreateButton({Name="God Hub",Callback=function() loadstring(game:HttpGet("https://raw.githubusercontent.com/kiciahook/kiciahook/refs/heads/main/loader.lua"))();end});local DroneSimulatorTab=Window:CreateTab("🎃| Drone Simulator",nil);local Section=DroneSimulatorTab:CreateSection("DroneSimulator");local Button=DroneSimulatorTab:CreateButton({Name="KAITO Hub",Callback=function() loadstring(game:HttpGet("https://pastebin.com/raw/g5hecbMB"))();end}); end
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+local Window = Rayfield:CreateWindow({
+   Name = "☣️ScriptHubV1☣️ | 🛠In Development By Skrillaa🛠",
+   LoadingTitle = "☣️ScriptHubV1☣️ | ✔The #1 Muti Script Cheat✔",
+   LoadingSubtitle = "by Skrilla",
+   Theme = "Green", -- Check https://docs.sirius.menu/rayfield/configuration/themes
+
+   DisableRayfieldPrompts = false,
+   DisableBuildWarnings = false, -- Prevents Rayfield from warning when the script has a version mismatch with the interface
+
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = nil, -- Create a custom folder for your hub/game
+      FileName = "ScriptHubV1"
+   },
+
+   Discord = {
+      Enabled = true, -- Prompt the user to join your Discord server if their executor supports it
+      Invite = "bwsuxr", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
+      RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+   },
+
+   KeySystem = true, -- Set this to true to use our key system
+   KeySettings = {
+      Title = "ScriptHubV1 Key System",
+      Subtitle = "Discord: https://discord.gg/6T9Gbwsuxr ",
+      Note = "ScriptHubV1 Key: ScriptHub999018936", -- Use this to tell the user how to get a key
+      FileName = "ScriptHubV1 Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
+      SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+      GrabKeyFromSite = true, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+      Key = {"https://pastebin.com/tuu8uGBW"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+   }
+})
+
+local MainTab = Window:CreateTab("⚙️| Main", nil) -- Title, Image
+local MainSection = MainTab:CreateSection("Main")
+
+Rayfield:Notify({
+   Title = "ScriptHub Has Been Executed!",
+   Content = "Thanks to Skrilla for ScriptHub",
+   Duration = 10,
+   Image = nil,
+   Actions = { -- Notification Buttons
+
+      Ignore = { -- Duplicate this table (or remove it) to add and remove buttons to the notification.
+         Name = "Okay!",
+         Callback = function()
+            print("The user tapped Okay!")
+         end
+      },
+
+},
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Aimbot",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/Aimbot-V3/main/src/Aimbot.lua"))()()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Soft Aim",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/karteljr33/Soft-Aim/refs/heads/main/Soft%20Aim",true))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "NoClip",
+   Callback = function()
+getgenv().Players = game:GetService'Players'
+getgenv().Host = Players.LocalPlayer
+getgenv().AddNotification = function(title, text) game:GetService'StarterGui':SetCore("SendNotification", {Title = title; Text = text;}) end
+getgenv().RunService = game:GetService'RunService';
+getgenv().ContextActionService = game:GetService'ContextActionService';
+
+local Noclip = true;
+local NoclipKey = 'X'; -- Change your key here
+
+RunService.RenderStepped:Connect(function()
+    if Noclip then
+        for _,v in pairs(Host.Character:GetDescendants()) do
+            if v:IsA'BasePart' and v.CanCollide then
+                v.CanCollide = false
+            end
+        end
+    else
+        for _,v in pairs(Host.Character:GetDescendants()) do
+            if v:IsA'BasePart' and not v.CanCollide then
+                v.CanCollide = true
+            end
+        end
+    end
+end)
+
+function Noclipping(ActionName:string, Properties:EnumItem)
+    if ActionName == 'Noclip' then
+        if not Properties or Properties == Enum.UserInputState.Begin then
+            Noclip = not Noclip
+            AddNotification('Noclip','Noclip is now - '..tostring(Noclip))
+        end
+    end
+end
+
+ContextActionService:BindAction('Noclip', Noclipping, true, Enum.KeyCode[NoclipKey])
+   end,
+})
+    
+local Button = MainTab:CreateButton({
+   Name = "ESP",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ic3w0lf22/Unnamed-ESP/refs/heads/master/UnnamedESP.lua",true))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Infinite Jump",
+   Callback = function()
+loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Infinite%20Jump.txt"))()
+   end,
+})
+
+local Slider = MainTab:CreateSlider({
+   Name = "WalkSpeed Adjust",
+   Range = {0, 300},
+   Increment = 1,
+   Suffix = "Speed",
+   CurrentValue = 16,
+   Flag = "Slider1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+   Callback = function(Value)
+       local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+    end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Infinite Yield (To Use GodMode Use /god In Yield)",
+   Callback = function()
+loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Infinite%20Yield.txt"))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Gravity Switch (press e to activate)",
+   Callback = function()
+ loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Gravity%20Switch.txt"))()
+    end,
+})
+
+local JailBreakTab = Window:CreateTab("💲| JailBreak", nil) -- Title, Image
+local Section = JailBreakTab:CreateSection("JailBreak")
+
+local Button = JailBreakTab:CreateButton({
+   Name = "Auto Rob V5",
+   Callback = function()
+ loadstring(game:HttpGet('http://scripts.projectauto.xyz/AutoRobV5'))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "IconIQ Chat Bypass V2.2",
+   Callback = function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/sytcal/iconiQ-Bypass/refs/heads/main/ChatBypasser"))()
+   end,
+})
+
+local ArsenalTab = Window:CreateTab("🏟| Arsenal", nil) -- Title, Image
+local Section = ArsenalTab:CreateSection("Arsenal")
+
+local Button = ArsenalTab:CreateButton({
+   Name = "Hitbox & ESP",
+   Callback = function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/GoldenCheats/arsenal-chatgpt-v1/refs/heads/main/arsneal%20v1%20chat%20gpt%20edition"))() 
+   end,
+})
+
+local Button = ArsenalTab:CreateButton({
+   Name = "Ventro GUI",
+   Callback = function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/ZxenoLR/Ventoro/refs/heads/main/Loader/Loader.luau", true))()
+   end,
+})
+
+local Button = ArsenalTab:CreateButton({
+   Name = "Nebula Menu",
+   Callback = function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Feimgps/Nebula/refs/heads/main/arsenal"))()
+   end,
+})
+
+local BloxFruitTab = Window:CreateTab("🍇| BloxFruit", nil) -- Title, Image
+local Section = BloxFruitTab:CreateSection("BloxFruit")
+
+local Button = BloxFruitTab:CreateButton({
+   Name = "Kncrypt Hub",
+   Callback = function()
+ loadstring(game.HttpGet(game,'https://raw.githubusercontent.com/Yumiara/Python/refs/heads/main/BloxFruit-XYZ.lua'))()
+   end,
+})
+
+local CombatWarriorsTab = Window:CreateTab("⚔️| CombatWarriors", nil) -- Title, Image
+local Section = CombatWarriorsTab:CreateSection("CombatWarriors")
+
+local Button = CombatWarriorsTab:CreateButton({
+   Name = "Stratos Hub Cracked",
+   Callback = function()
+  loadstring(game:HttpGet("https://pastefy.app/wTqvTGZ8/raw"))()
+   end,
+})
+
+local FischTab = Window:CreateTab("🎣| Fisch", nil) -- Title, Image
+local Section = FischTab:CreateSection("Fisch")
+
+local Button = FischTab:CreateButton({
+   Name = "AtherHub",
+   Callback = function()
+  loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/2529a5f9dfddd5523ca4e22f21cceffa.lua"))()
+   end,
+})
+
+local Button = FischTab:CreateButton({
+   Name = "SpaceHub",
+   Callback = function()
+   loadstring(game:HttpGet("https://you.whimper.xyz/sources/rb/fisch.lua"))()
+   end,
+})
+
+local Button = ArsenalTab:CreateButton({
+   Name = "ThunderHub",
+   Callback = function()
+ loadstring(game:HttpGet('https://raw.githubusercontent.com/andrewdarkyyofficial/thunderclient/main/main.lua'))()
+   end,
+})
+
+local DannysWorldTab = Window:CreateTab("🎟️| DannysWorld ", nil) -- Title, Image
+local Section = DannysWorldTab:CreateSection("DannysWorld")
+
+local Button = DannysWorldTab:CreateButton({
+   Name = "Hex's Hub",
+   Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/Y7uh3UZf"))();
+   end,
+})
+
+local ScpRoleplayTab = Window:CreateTab("☢| Scp: Roleplay", nil) -- Title, Image
+local Section = ScpRoleplayTab:CreateSection("Scp: Roleplay")
+
+local Button = ScpRoleplayTab:CreateButton({
+   Name = "NullZen Hub",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/axleoislost/NullZen/main/Scp-Roleplay'))()
+   end,
+})
+
+local Button = FischTab:CreateButton({
+   Name = "Speed Hub X",
+   Callback = function()
+ loadstring(game:HttpGet("https://pastebin.com/raw/3TB9m8us"))()
+   end,
+})
+
+local Button = FischTab:CreateButton({
+   Name = "RBscr1ptsHub",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/ago106/ScriptsRoblox/refs/heads/main/NewKey'))()
+   end,
+})
+
+local KingLegacyTab = Window:CreateTab("🎃| King Legacy", nil) -- Title, Image
+local Section = KingLegacyTab:CreateSection("King Legacy")
+
+local Button = KingLegacyTab:CreateButton({
+   Name = "Arc Hub",
+   Callback = function()
+loadstring(game:HttpGet("https://you.whimper.xyz/arc"))()
+   end,
+})
+
+local Button = FischTab:CreateButton({
+   Name = "InfiniteWare",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Kitler69/InfiniteWare/refs/heads/main/Launcher",true))()
+   end,
+})
+
+local Button = FischTab:CreateButton({
+   Name = "Soft.cc Menu",
+   Callback = function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/soft-cc/Soft.cc/refs/heads/main/scripts/FISCH.lua')))()
+   end,
+})
+
+local Button = ArsenalTab:CreateButton({
+   Name = "Vanta Menu",
+   Callback = function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/ExploitDevsOffical/Vanta/refs/heads/main/V3/Arsenal/V3.0.0A"))()
+   end,
+})
+
+local PetsGOTab = Window:CreateTab("🐶| Pets GO", nil) -- Title, Image
+local Section = PetsGOTab:CreateSection("Pets GO")
+
+local Button = PetsGOTab:CreateButton({
+   Name = "AtherHub",
+   Callback = function()
+  loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/2529a5f9dfddd5523ca4e22f21cceffa.lua"))()
+   end,
+})
+
+local SouthBronxTab = Window:CreateTab("🩸| South Bronx", nil) -- Title, Image
+local Section = SouthBronxTab:CreateSection("South Bronx")
+
+local Button = SouthBronxTab:CreateButton({
+   Name = "COMPOUND V",
+   Callback = function()
+   pcall(loadstring(game:HttpGet("https://pastebin.com/raw/rHUdVp8y")))
+   end,
+})
+
+local RivalsTab = Window:CreateTab("🛡️| Rivals", nil) -- Title, Image
+local Section = RivalsTab:CreateSection("Rivals")
+
+local Button = RivalsTab:CreateButton({
+   Name = "Rivals Roblox GUI",
+   Callback = function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Sheeshablee73/Scriptss/main/Rivals%20Latest.lua",true))() 
+   end,
+})
+
+local Button = ArsenalTab:CreateButton({
+   Name = "ARSON",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ArsonScriptOfficial/ArsNew/refs/heads/main/Keysystem/KeySys.lua"))()             
+   end,
+})
+
+local Button = FischTab:CreateButton({
+   Name = "Fisch Auto Farm",
+   Callback = function()
+  loadstring(game:HttpGet("https://rawscripts.net/raw/UPD-Fisch-Roblox-Script-21984"))()
+   end,
+})
+
+local Button = BloxFruitTab:CreateButton({
+   Name = "God Hub",
+   Callback = function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/kiciahook/kiciahook/refs/heads/main/loader.lua"))()
+   end,
+})
+
+local DroneSimulatorTab = Window:CreateTab("🎃| Drone Simulator", nil) -- Title, Image
+local Section = DroneSimulatorTab:CreateSection("DroneSimulator")
+
+local Button = DroneSimulatorTab:CreateButton({
+   Name = "KAITO Hub",
+   Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/g5hecbMB"))()
+   end,
+})
+
+local Button = FischTab:CreateButton({
+   Name = "Project Spectrum 8.0",
+   Callback = function()
+loadstring(game:HttpGet("https://you.whimper.xyz/spectrum"))()
+   end,
+})
+
