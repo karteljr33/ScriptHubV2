@@ -70,41 +70,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/karteljr33/Soft-Aim/r
 local Button = MainTab:CreateButton({
    Name = "NoClip",
    Callback = function()
-getgenv().Players = game:GetService'Players'
-getgenv().Host = Players.LocalPlayer
-getgenv().AddNotification = function(title, text) game:GetService'StarterGui':SetCore("SendNotification", {Title = title; Text = text;}) end
-getgenv().RunService = game:GetService'RunService';
-getgenv().ContextActionService = game:GetService'ContextActionService';
-
-local Noclip = true;
-local NoclipKey = 'X'; -- Change your key here
-
-RunService.RenderStepped:Connect(function()
-    if Noclip then
-        for _,v in pairs(Host.Character:GetDescendants()) do
-            if v:IsA'BasePart' and v.CanCollide then
-                v.CanCollide = false
-            end
-        end
-    else
-        for _,v in pairs(Host.Character:GetDescendants()) do
-            if v:IsA'BasePart' and not v.CanCollide then
-                v.CanCollide = true
-            end
-        end
-    end
-end)
-
-function Noclipping(ActionName:string, Properties:EnumItem)
-    if ActionName == 'Noclip' then
-        if not Properties or Properties == Enum.UserInputState.Begin then
-            Noclip = not Noclip
-            AddNotification('Noclip','Noclip is now - '..tostring(Noclip))
-        end
-    end
-end
-
-ContextActionService:BindAction('Noclip', Noclipping, true, Enum.KeyCode[NoclipKey])
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Not-Kyle/Universal-Scripts.lua/refs/heads/main/Noclip.lua",true))()
    end,
 })
     
@@ -130,7 +96,7 @@ local Slider = MainTab:CreateSlider({
    CurrentValue = 16,
    Flag = "Slider1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
    Callback = function(Value)
-       local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = (Value)
     end,
 })
 
