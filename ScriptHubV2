@@ -84,7 +84,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ic3w0lf22/Unnamed-ESP
 local Button = MainTab:CreateButton({
    Name = "Infinite Jump",
    Callback = function()
-loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Infinite%20Jump.txt"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xistly/Infinite-jump/refs/heads/main/infjump%20script",true))()
    end,
 })
 
