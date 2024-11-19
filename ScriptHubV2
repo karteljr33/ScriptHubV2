@@ -348,3 +348,10 @@ local Button = HoodWarsTab:CreateButton({
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaitofyp/-BANK-ROBBERY-Hood-Wars-/refs/heads/main/Op%20script"))()
    end,
 })
+
+local Button = CombatWarriorsTab:CreateButton({
+   Name = "Shub V2",
+   Callback = function()
+   loadstring(game:HttpGet("https://pastefy.app/50B4Z9UK/raw"))()
+   end,
+})
