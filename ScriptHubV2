@@ -101,7 +101,7 @@ local Slider = MainTab:CreateSlider({
 })
 
 local Button = MainTab:CreateButton({
-   Name = "Infinite Yield (To Use GodMode Use /god In Yield)",
+   Name = "Infinite Yield 6.1 (To Use GodMode Use /god In Yield)",
    Callback = function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
    end,
