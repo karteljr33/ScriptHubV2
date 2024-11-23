@@ -108,9 +108,9 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/
 })
 
 local Button = MainTab:CreateButton({
-   Name = "Gravity Switch (press e to activate)",
+   Name = "Gravity Switch (press p to activate)",
    Callback = function()
- loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Gravity%20Switch.txt"))()
+ loadstring(game:HttpGet("https://pastebin.com/raw/VTkRfkKv",true))()
     end,
 })
 
